@@ -7,23 +7,20 @@ Le projet Corewar consiste a créer une arène virtuelle et un programme assembl
 ## Installing & Running
 
 Create the programme with :
-<br/><code>
-cd corewar
-<br/>make
-</code>
+
+	cd corewar
+	make
 
 Run ASM:
 
 	./asm [-v] <file.s>
 
-
 Run VM:
-'''
-./corewar [-option (NUMBER)] <champion1.cor> <...>
-	<br/>-a: Prints output from "aff" (Default is to hide it)
-	-d N: Dumps memory after N cycles then exits
-	-s N: Runs N cycles, dumps memory, pauses, then repeats
-	-n N: Fix number of player
-	-v: Show verbose mode
-	-h: Hide live message
-'''
+
+	./corewar [-option (NUMBER)] <champion1.cor> <...>
+		-a: Prints output from "aff" (Default is to hide it)
+		-d N: Dumps memory after N cycles then exits
+		-s N: Runs N cycles, dumps memory, pauses, then repeats
+		-n N: Fix number of player
+		-v: Show verbose mode
+		-h: Hide live message
