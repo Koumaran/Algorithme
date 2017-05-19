@@ -7,15 +7,14 @@ Le projet Corewar consiste a créer une arène virtuelle et un programme assembl
 ## Installing & Running
 
 Create the programme with :
-<code>
+<br/><code>
 cd corewar
-make
+<br/>make
 </code>
 
 Run ASM:
 
-
-		./asm [-v] <file.s>
+	./asm [-v] <file.s>
 
 
 Run VM:
