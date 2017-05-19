@@ -24,3 +24,16 @@ Run VM:
 		-n N: Fix number of player
 		-v: Show verbose mode
 		-h: Hide live message
+
+## Comment
+
+Instructions comprise par la VM :
+
+	![operation tab](https://github.com/Koumaran/Algorithme/blob/master/Corewar/operation.png)
+
+## Authors
+
+	Jsivane
+	plecompt
+	hnguyen
+	hivian
