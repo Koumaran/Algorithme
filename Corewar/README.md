@@ -20,7 +20,7 @@ Run ASM:
 Run VM:
 '''
 ./corewar [-option (NUMBER)] <champion1.cor> <...>
-	-a: Prints output from "aff" (Default is to hide it)
+	<br/>-a: Prints output from "aff" (Default is to hide it)
 	-d N: Dumps memory after N cycles then exits
 	-s N: Runs N cycles, dumps memory, pauses, then repeats
 	-n N: Fix number of player
