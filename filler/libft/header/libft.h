@@ -97,7 +97,7 @@ void				ft_lstiter(t_list *lst, void (*f)(t_list *elem));
 t_list				*ft_lstmap(t_list *lst, t_list *(*f)(t_list *elem));
 t_list				*ft_strsplit_lst(char const *s, char c);
 void				**ft_memalloc_2d(size_t x, size_t y);
-void				ft_memfree_2d(char **map, size_t n);
+void				ft_memfree_2d(char **map);
 char				*ft_strrev(char *str);
 size_t				ft_filelen(char *file);
 char				*ft_file_to_char(char *file);

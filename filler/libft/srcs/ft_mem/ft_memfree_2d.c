@@ -12,9 +12,13 @@
 
 #include "libft.h"
 
-void	ft_memfree_2d(char **map, size_t n)
+void	ft_memfree_2d(char **map)
 {
-	while (n--)
-		free(*(map++));
+	int		i;
+
+	i = 0;
+	while (map[i])
+		free(map[i++]);
+	free(map);
 	map = NULL;
 }
