@@ -1,21 +1,22 @@
 # COREWAR
 
 Le projet Corewar consiste a créer une arène virtuelle et un programme assembleur.
-	-ASM (Assembleur) : recupere un programme (dit champion) codé dans un langage assembleur simpliste et le compile en bytecode.
-	-VM (Virtual Machine) : Créer une arène virtuelle et y fait affronter des programmes codés dans un langage simpliste.
+	<br/>-ASM (Assembleur) : recupere un programme (dit champion) codé dans un langage assembleur simpliste et le compile en bytecode.
+	<br/>-VM (Virtual Machine) : Créer une arène virtuelle et y fait affronter des programmes codés dans un langage simpliste.
 
 ## Installing & Running
 
 Create the programme with :
-'''
+<code>
 cd corewar
 make
-'''
+</code>
 
 Run ASM:
-'''
-./asm [-v] <file.s>
-'''
+
+
+		./asm [-v] <file.s>
+
 
 Run VM:
 '''
