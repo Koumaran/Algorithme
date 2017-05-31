@@ -15,14 +15,19 @@ st  r1, 84
 
 sti   r1, %:up_wall, %1
 sti   r1, %:down_wall, %1
-sti   r1, %:let_forks, %1
+sti   r1, %:pre_fork, %1
+sti   r1, %:pre_fork, %1
+sti   r1, %:pre_fork, %1
 
-ld    %0, r2
 pre_fork:
   live %1
+  ld    %0, r2
   fork  %:down_wall
+  live %1
   fork  %:up_wall
-  zjmp  %:let_forks
+  live %1
+  fork  %:steel_live
+  zjmp  %:pre_fork
 
 up_wall:
   live	%1
@@ -77,11 +82,6 @@ up_wall:
   st		r2, -447
   st		r2, -456
   zjmp  %:up_wall
-
-  let_forks:
-    live %1
-    fork  %:steel_live
-    zjmp %:let_forks
 
 steel_live:
   live %1
