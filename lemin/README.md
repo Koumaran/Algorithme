@@ -8,4 +8,4 @@ Create the programme with :
 
 	make
 
-![lemin](https://github.com/Koumaran/Algorithme/blob/master/Corewar/lemin_shoot.png)
+![lemin](https://github.com/Koumaran/Algorithme/blob/master/lemin/lemin_shoot.png)
